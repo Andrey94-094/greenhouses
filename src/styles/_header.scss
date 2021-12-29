@@ -1,0 +1,242 @@
+.header {
+    &__img {
+        background-image: url("../../assets/images/header/fon.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 675px;
+        width: 100%;
+        padding: 2% 5% 11%;
+        font-size: 18px;
+        line-height: 22px;
+        @media (max-width: 2000px) {
+            line-height: 20px;
+        }
+        @media (max-width:$highDesktop) {
+            font-size: 16px;
+        }
+        @media (max-width: $desktop) {
+            font-size: 14px;
+            height: 600px;
+        }
+        @media (max-width: $iPadPro) {
+            font-size: 11px;
+            height: 485px;
+        }
+        @media (max-width:$tablet) {
+            font-size: 8px;
+            height: 420px;
+        }
+        @media (max-width:$phone) {
+            height: 350px;
+        }
+    }
+    &__container {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    &__menu {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    &__menu-title {
+        font-family: Montserrat;
+        color: #FFFFFF;
+        margin: 1% 1.5%;
+        white-space: nowrap;
+    }
+    &__menu-title-bold {
+        font-family: Montserrat-bold;
+    }
+    &__menu-blocks {
+        width: 60%;
+        @media (max-width: 700px) {
+            display: none;
+        }
+    }
+    &__logo-name {
+        font-family: Montserrat;
+        color: #ADFF00;
+        margin: 1% 8% 1% 1%;
+    }
+    &__phones {
+        width: 15%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        @media (max-width: 700px) {
+            display: none;
+        }
+    }
+    &__phone {
+        font-family: 'Montserrat', sans-serif;
+        color: #FFA800;
+        @media (max-width: 700px) {
+            width: 100%;
+        }
+    }
+    &__heading {
+        display: block;
+        padding: 8% 0px 5%;
+        text-align: center;
+        @media (min-width: 2000px) {
+            padding: 6% 0px 4% 6%;
+        }
+        @media (max-width: $desktop) {
+            padding: 7% 0px 4% 5%;
+        }
+        @media (max-width: $iPadPro) {
+            padding: 6% 0px 3% 4%;
+        }
+        @media (max-width:$tablet) {
+            padding: 5% 0px 2% 3%;
+        }
+    }
+    &__heading-text-g-t {
+        font-family: Montserrat;
+        font-weight: 600;
+        font-size: 32px;
+        color: rgba(173, 255, 0, 1);
+        @media (max-width: $desktop) {
+            font-size: 26px;
+        }
+        @media (max-width: $iPadPro) {
+            font-size: 22px;
+        }
+        @media (max-width:$tablet) {
+            font-size: 16px;
+        }
+        @media (max-width:$phone) {
+            font-size: 12px;
+        }
+    }
+    &__heading-text-g {
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 48px;
+        color: rgba(173, 255, 0, 1);
+        white-space: nowrap;
+        line-height: 59px;
+        @media (max-width: $desktop) {
+            font-size: 40px;
+        }
+        @media (max-width: $iPadPro) {
+            font-size: 32px;
+        }
+        @media (max-width:$tablet) {
+            font-size: 22px;
+        }
+        @media (max-width:$phone) {
+            font-size: 16px;
+        }
+    }
+    &__heading-text-w {
+        font-family: Montserrat;
+        font-weight: 600;
+        color: white;
+        font-size: 24px;
+        line-height: 29px;
+        @media (max-width: $desktop) {
+            font-size: 20px;
+        }
+        @media (max-width: $iPadPro) {
+            font-size: 16px;
+        }
+        @media (max-width:$tablet) {
+            font-size: 12px;
+        }
+        @media (max-width:$phone) {
+            font-size: 10px;
+        }
+    }
+    &__button {
+        background: linear-gradient(91.87deg, #FF5C00 0.52%, #FFB800 99.13%);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        padding: 1% 2%;
+        border: 0;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0);
+        margin-bottom: 5%;
+        animation: radial-pulse 1s infinite;
+        @media (max-width: 2000px) {
+            margin-bottom: 7%;
+        }
+        @media (max-width: $tablet) {
+            margin-bottom: 4%;
+        }
+    }
+    &__button-text {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        @media (max-width: $desktop) {
+            font-size: 12px;
+        }
+        @media (max-width: $iPadPro) {
+            font-size: 10px;
+        }
+    }
+    &__block {
+        display: flex;
+        justify-content: center;
+    }
+    &__block-img {
+        background-image: url(../../assets/images/header/logo_retina.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 8%;
+        height: 37px;
+        object-fit: cover;
+    }
+    &__block-text {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 128.4%;
+        color: #FFFFFF;
+        padding: 0 30px 0 25px;
+        @media (max-width: $desktop) {
+            font-size: 16px;
+        }
+        @media (max-width: $iPadPro) {
+            font-size: 12px;
+        }
+        @media (max-width:$tablet) {
+            font-size: 8px;
+        }
+        @media (max-width:$phone) {
+            padding: 0 5px;
+        }
+    }
+    &__navbar {
+        display: none;
+        @media (max-width: 700px) {
+            display: block;
+            width: 100px;
+        }
+    }
+    &__phones-nav {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+}
+
+.header__button:hover {
+    background: linear-gradient(91.87deg, #FFB800 0.52%, #FF5C00 99.52%);
+}
+
+@keyframes radial-pulse {
+    0% {
+        box-shadow: 0 0 0 0px rgba(228, 204, 71, 0.753);
+    }
+    100% {
+        box-shadow: 0 0 0 40px rgba(207, 241, 207, 0);
+    }
+}

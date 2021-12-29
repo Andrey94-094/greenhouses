@@ -1,0 +1,412 @@
+.block-greenhouses {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 18px;
+    @media (max-width: $desktop) {
+        font-size: 16px;
+    }
+    @media (max-width:$iPadPro) {
+        font-size: 14px;
+    }
+    @media (max-width:$tablet) {
+        font-size: 12px;
+    }
+    @media (max-width:$phone) {
+        font-size: 8px;
+    }
+    &__title {
+        height: 110px;
+        background: linear-gradient(90.32deg, #FF6300 0%, #FFB000 82.66%);
+        font-size: 36px;
+        line-height: 44px;
+        color: #000000;
+        text-align: center;
+        padding-top: 2%;
+        @media (max-width: $tablet) {
+            height: 100px;
+            font-size: 32px;
+        }
+        @media (max-width:$iPadPro) {
+            height: 80px;
+            font-size: 28px;
+        }
+        @media (max-width:$tablet) {
+            font-size: 24px;
+        }
+    }
+    &__advantage {
+        width: 100%;
+        padding: 5% 6% 1%;
+    }
+    &__advantage-title {
+        text-align: center;
+        font-size: 30px;
+        font-style: normal;
+        margin-bottom: 34px;
+        @media (max-width: $tablet) {
+            height: 100px;
+            font-size: 30px;
+        }
+        @media (max-width:$iPadPro) {
+            height: 80px;
+            font-size: 26px;
+        }
+        @media (max-width:$tablet) {
+            font-size: 22px;
+            margin-bottom: 0;
+        }
+    }
+    &__advantage-title-orange {
+        color: #FF6901;
+    }
+    &__form {
+        border: 0px solid black;
+        box-shadow: 0px 0px 25px 0px black;
+        border-radius: 9px;
+        padding: 22px 31px 0px 0;
+        @media (max-width: $iPadPro) {
+            padding: 16px 10px 0;
+        }
+    }
+    &__slider {
+        width: 50%;
+        margin-right: 30px;
+        @media (max-width: $iPadPro) {
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        @media (max-width:$tablet) {
+            width: 100%;
+        }
+    }
+    &__container {
+        display: flex;
+        margin-bottom: 32px;
+        @media (max-width: $tablet) {
+            font-size: 28px;
+        }
+        @media (max-width:$iPadPro) {
+            font-size: 24px;
+            display: block;
+        }
+        @media (max-width:$tablet) {
+            font-size: 12px;
+            margin-bottom: 2px;
+        }
+    }
+    &__container-discounts-flex {
+        display: flex;
+    }
+    &__text {
+        background: rgba(219, 242, 121, 0.39);
+        width: 45%;
+        padding: 25px 27px 0 29px;
+        list-style: 1;
+        @media (max-width: $iPadPro) {
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        @media (max-width:$tablet) {
+            padding: 10px 15px 0 0px;
+        }
+    }
+    &__text-title {
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 24px;
+        @media (max-width: $iPadPro) {
+            font-size: 20px;
+            margin: 16px 0;
+        }
+        @media (max-width:$tablet) {
+            font-size: 16px;
+        }
+    }
+    &__calc {
+        margin-left: 31px;
+        @media (max-width: $phone) {
+            margin-left: 5px;
+        }
+    }
+    &__calc-title {
+        background: none;
+        width: 100%;
+        padding-bottom: 18px;
+        border-bottom: 2px solid #FF6D01;
+    }
+    &__arrows {
+        border-radius: 10px;
+    }
+    &__container-flex {
+        display: flex;
+        @media (max-width: $iPadPro) {
+            width: 100%;
+            flex-wrap: wrap;
+            margin-right: auto;
+        }
+    }
+    &__container-button {
+        caret-color: transparent;
+        cursor: pointer;
+        /* Цвет фона */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        /* Параметры тени */
+        padding: 10px;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        margin-right: 10px;
+        background-color: rgba(255, 252, 225, 1);
+        border-radius: 10px;
+        margin-bottom: 41px;
+        @media (max-width: $tablet) {
+            // padding: 13px 10px;
+            font-size: 14px;
+            margin-bottom: 20px;
+            // padding: 7px 12px;
+        }
+        @media (max-width: $phone) {
+            font-size: 12px;
+            margin-right: 5px;
+            margin-bottom: 10px;
+            // padding: 6px
+        }
+    }
+    &__container-text {
+        margin-bottom: 19px;
+    }
+    &__discounts {
+        line-height: 44px;
+        @media (max-width: $desktop) {
+            width: 100%;
+        }
+        @media (max-width:$tablet) {
+            line-height: 38px;
+        }
+    }
+    &__container-discounts {
+        background: white;
+        border: 0;
+        width: 200px;
+        font-size: 36px;
+        color: rgba(105, 104, 104, 1);
+        @media (max-width: $iPadPro) {
+            font-size: 30px;
+        }
+        @media (max-width: $tablet) {
+            width: 180px;
+            font-size: 26px;
+        }
+        @media (max-width:$phone) {
+            width: 140px;
+            font-size: 22px;
+        }
+    }
+    &__container-discounts-red {
+        font-size: 36px;
+        color: rgba(255, 46, 0, 1);
+        @media (max-width: $tablet) {
+            font-size: 26px;
+        }
+        @media (max-width: $phone) {
+            font-size: 22px;
+        }
+    }
+    &__container~div {
+        // margin-right: auto;
+        @media (max-width: $iPadPro) {
+            padding-bottom: 1px;
+        }
+        @media (max-width: $phone) {
+            padding-bottom: 0px;
+        }
+    }
+    &__container-form {
+        margin-bottom: 70px;
+        @media (max-width: $iPadPro) {
+            margin-bottom: 20px;
+        }
+    }
+    &__button {
+        width: 300px;
+        padding: 20px;
+        left: 150px;
+        border-radius: 0 10px 10px 0;
+        margin-bottom: 0;
+        color: black;
+        @media (max-width: $tablet) {
+            width: 225px;
+            padding: 8px;
+            left: 50%;
+        }
+    }
+    &__container-input {
+        border: 0;
+        width: 50%;
+        @media (max-width: $iPadPro) {
+            width: 50%;
+        }
+        @media (max-width: $tablet) {
+            width: 60px;
+        }
+    }
+    &__container_w {
+        width: 50%;
+        @media (max-width: $iPadPro) {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+
+.block-greenhouses__container-button :active,
+ :hover,
+ :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.input-group {
+    font-family: Montserrat;
+    font-weight: 500px;
+    font-size: 14px;
+    @media (max-width: $tablet) {
+        display: block;
+        font-size: 12px;
+    }
+}
+
+.form-control {
+    font-size: 12px;
+    border: 1px solid black;
+    border-radius: 10px;
+    @media (max-width: $iPadPro) {
+        font-size: 16px;
+    }
+    @media (max-width: $tablet) {
+        font-size: 14px;
+        width: 100%;
+    }
+}
+
+.input-group>.form-control,
+.input-group>.form-select {
+    @media (max-width: $tablet) {
+        width: 100%;
+    }
+}
+
+.input-group:not(.has-validation)>.dropdown-toggle:nth-last-child(n+3),
+.input-group:not(.has-validation)> :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu) {
+    @media (max-width: $tablet) {
+        border-radius: 10px;
+    }
+}
+
+.input-group> :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    @media (max-width: $tablet) {
+        border-radius: 10px;
+        width: 100%;
+    }
+}
+
+.old-price {
+    position: relative;
+    padding: 3px;
+}
+
+.old-price:before,
+.old-price:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+    background-color: red;
+    transform: rotate(8deg);
+}
+
+.old-price:after {
+    transform: rotate(-8deg)
+}
+
+.block-greenhouses__active,
+.block-greenhouses__container-button:hover {
+    background-color: rgba(174, 253, 5, 1);
+}
+
+.form-check-input {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #FFC700;
+    border-radius: 0;
+    float: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-check-input:checked {
+    background: #EF00E6;
+    border: 2px solid #EF00E6;
+}
+
+.form-check {
+    margin-bottom: 18px;
+    @media (max-width: $phone) {
+        margin: 0;
+    }
+}
+
+.form-check-label {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    @media (max-width: $tablet) {
+        font-size: 14px;
+    }
+    @media (max-width:$phone) {
+        font-size: 12px;
+    }
+}
+
+.form_radio_btn {
+    display: inline-block;
+}
+
+.form_radio_btn input[type=radio] {
+    display: none;
+}
+
+.form_radio_btn label {
+    display: inline-block;
+    cursor: pointer;
+    padding: 20px;
+    line-height: 34px;
+    border-radius: 6px;
+    user-select: none;
+}
+
+
+/* Checked */
+
+.form_radio_btn input[type=radio]:checked~div {
+    background-color: rgba(174, 253, 5, 1);
+}
+
+
+/* Hover */
+
+.form_radio_btn label:hover {
+    color: #666;
+}
+
+
+/* Disabled */
+
+.form_radio_btn input[type=radio]:disabled+label {
+    background: #efefef;
+    color: #666;
+}

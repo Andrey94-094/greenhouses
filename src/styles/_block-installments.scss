@@ -1,0 +1,160 @@
+.block-installments {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 18px;
+    @media (max-width: $desktop) {
+        font-size: 16px;
+    }
+    &__title {
+        height: 110px;
+        background: linear-gradient(90.32deg, #FF6300 0%, #FFB000 82.66%);
+        font-size: 36px;
+        line-height: 44px;
+        color: #000000;
+        text-align: center;
+        padding-top: 2%;
+        @media (max-width: $desktop) {
+            height: 90px;
+            font-size: 28px;
+        }
+        @media (max-width:$tablet) {
+            font-size: 22px;
+        }
+    }
+    &__img {
+        background-image: url("../../assets/images/block-installments/scale.jpg     ");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 100%;
+        padding: 4%;
+        font-size: 18px;
+        line-height: 22px;
+        @media (max-width: $desktop) {
+            padding: 3%;
+        }
+        @media (max-width:$phone) {
+            margin-bottom: 25px;
+        }
+    }
+    &__flex {
+        display: flex;
+        color: white;
+        flex-wrap: wrap;
+        @media (max-width: $iPadPro) {
+            flex-direction: column;
+            margin-bottom: 40px;
+        }
+    }
+    &__flex-column {
+        display: flex;
+        flex-direction: column;
+    }
+    &__item-flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__flex-bg {
+        background-image: url(../../assets/images/block-installments/credit__title-bg\ 1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        padding-top: 12px;
+        text-align: center;
+        color: black;
+        font-size: 16px;
+        @media (max-width: 1400px) {
+            font-size: 12px;
+            padding-top: 8px;
+        }
+    }
+    &__flex-img {
+        height: 50px;
+        @media (max-width: 1400px) {
+            height: 40px;
+        }
+    }
+    &__item {
+        margin-right: 5%;
+        width: 45%;
+        display: flex;
+        @media (max-width: 1400px) {
+            width: 48%;
+            margin-right: 2%;
+        }
+        @media (max-width: $iPadPro) {
+            margin-right: 0;
+            width: 100%;
+        }
+    }
+    &__text {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 36px;
+    }
+    &__item-firms {
+        background-image: url("../../assets/images/block-installments/1.png");
+        background-repeat: no-repeat;
+        width: 30%;
+        height: 100%;
+        @media (max-width: $iPadPro) {
+            height: 50px;
+            width: 10%;
+        }
+        @media (max-width: $tablet) {
+            display: none;
+        }
+    }
+    &__item-rrb {
+        background-image: url("../../assets/images/block-installments/2.png");
+        background-repeat: no-repeat;
+        width: 40%;
+        height: 100%;
+        @media (max-width: $iPadPro) {
+            height: 50px;
+            width: 15%;
+        }
+        @media (max-width: $tablet) {
+            display: none;
+        }
+    }
+    &__item-cards {
+        background-image: url("../../assets/images/block-installments/3.png");
+        background-repeat: no-repeat;
+        width: 15%;
+        height: 100%;
+        @media (max-width: $iPadPro) {
+            height: 50px;
+            width: 9%;
+        }
+        @media (max-width: $tablet) {
+            display: none;
+        }
+    }
+    &__item-rrb36 {
+        background-image: url("../../assets/images/block-installments/4.png");
+        background-repeat: no-repeat;
+        width: 45%;
+        height: 100%;
+        @media (max-width: $iPadPro) {
+            height: 50px;
+            width: 20%;
+        }
+        @media (max-width: $tablet) {
+            display: none;
+        }
+    }
+    &__orange {
+        color: orange;
+    }
+    &__orangered {
+        color: orangered;
+    }
+    &__green {
+        color: rgba(173, 255, 0, 1);
+    }
+}

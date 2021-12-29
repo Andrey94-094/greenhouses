@@ -1,0 +1,39 @@
+.kigdsab-godeav {
+    width: 200px;
+    height: 100%;
+    margin: 0 auto 0
+}
+
+.casetug-posavun {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-left: -32px;
+    margin-top: -32px;
+    display: block;
+    width: 53px;
+    height: 53px;
+    font-size: 34px;
+    font-weight: bold;
+    color: #f5f0f0;
+    text-shadow: 0 1px 0 #0f3354;
+    border: 1px solid #1d71c1;
+    box-shadow: 0 0 0 0 rgba(90, 153, 220, 0.7), inset 0 1px 0 #98c4ec;
+    border-radius: 100%;
+    background: #62a8e8;
+    background-image: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(0, #6eace4), color-stop(100%, #4f93d4));
+    background-image: -webkit-linear-gradient(#64a0d6, #3f86ca);
+    background-image: linear-gradient(#66a3da, #3f88ce);
+    cursor: pointer;
+    -webkit-animation: pulse 1s infinite cubic-bezier(0.6, 0, 0, 1);
+}
+
+.casetug-posavun:hover {
+    -webkit-animation: none
+}
+
+@-webkit-keyframes pulse {
+    to {
+        box-shadow: 0 0 0 23px rgba(81, 147, 218, 0), inset 0 1px 0 #9ec3e6
+    }
+}

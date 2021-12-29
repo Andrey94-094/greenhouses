@@ -1,0 +1,270 @@
+.block-why {
+    background-image: url(../../assets/images/block-why/podgotovka-teplitsy.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 762px;
+    margin-top: 80px;
+    padding-top: 2px;
+    @media (max-width: $desktop) {
+        height: 500px;
+    }
+    @media (max-width:$tablet) {
+        margin-top: 0;
+        height: 600px;
+    }
+    &__title {
+        margin-top: -90px;
+        height: 110px;
+        background: linear-gradient(90.32deg, #FF6300 0%, #FFB000 82.66%);
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 44px;
+        color: #000000;
+        text-align: center;
+        padding-top: 2%;
+        @media (max-width: $highDesktop) {
+            font-size: 32px;
+            height: 100;
+        }
+        @media (max-width:$tablet) {
+            font-size: 24px;
+            height: 60px;
+            margin-top: -20px;
+        }
+        @media (max-width:$phone) {
+            font-size: 14px;
+        }
+    }
+    &__advantage {
+        width: 100%;
+        height: 100%;
+        padding: 4% 5% 4% 6%;
+    }
+    &__advantage-fonts {
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 500px;
+        margin-top: 100px;
+        @media (max-width: $highDesktop) {
+            height: 300px;
+        }
+        @media (max-width: $iPadPro) {
+            margin-top: 70px;
+            height: 250px;
+        }
+        @media (max-width:$tablet) {
+            margin-top: 50px;
+        }
+    }
+    &__advantage-img {
+        height: 500px;
+        @media (max-width: $highDesktop) {
+            height: 300px;
+        }
+        @media (max-width: $desktop) {
+            height: 185px;
+        }
+        @media (max-width:$tablet) {
+            display: none;
+        }
+    }
+    &__advantage-icon-met {
+        background-image: url(../../assets/images/block-why/izdeliya-iz-metalla.jpg);
+        left: 230px;
+        top: -78px;
+        @media (max-width: $desktop) {
+            top: -71px;
+        }
+        @media (max-width: $iPadPro) {
+            top: -50px;
+        }
+        @media (max-width: $tablet) {
+            left: 200px;
+            top: -50px;
+        }
+        @media (max-width: $phone) {
+            left: 200px;
+        }
+    }
+    &__advantage-text-met {
+        left: 33%;
+        margin-top: -2%;
+        @media (max-width: $tablet) {
+            left: 0;
+        }
+        @media (max-width:$tablet) {
+            margin-top: -4%;
+        }
+    }
+    &__advantage-text {
+        padding: 2%;
+        position: absolute;
+        color: #000000;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        background: linear-gradient( 94.75deg, rgba(112, 255, 0, 0.30) 0%, rgba(250, 255, 0, 0.40) 100%);
+        border-radius: 10px;
+        filter: drop-shadow(-1px 4px 4px rgba(0, 0, 0, 0.50));
+        height: 12%;
+        @media (max-width: $highDesktop) {
+            font-size: 16px;
+            height: 10%;
+        }
+        @media (max-width: $desktop) {
+            font-size: 16px;
+            height: 8%;
+        }
+        @media (max-width: $tablet) {
+            position: relative;
+            height: 20%;
+        }
+        @media (max-width: $phone) {
+            font-size: 12px;
+            height: 18%;
+        }
+    }
+    &__advantage-icon {
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 3px solid #FF0202;
+        box-sizing: border-box;
+        border-radius: 50%;
+        width: 130px;
+        height: 130px;
+        @media (max-width: $desktop) {
+            width: 100px;
+            height: 100px;
+        }
+        @media (max-width: $iPadPro) {
+            width: 70px;
+            height: 70px;
+        }
+        @media (max-width: $tablet) {
+            position: relative;
+        }
+        @media (max-width:$phone) {
+            height: 50px;
+            width: 50px;
+        }
+    }
+    &__advantage-icon-z {
+        background-image: url(../../assets/images/block-why/krepezh-gvozdi.jpg);
+        top: -70px;
+        left: 220px;
+        @media (max-width: $desktop) {
+            left: 200px;
+        }
+        @media (max-width: $iPadPro) {
+            top: -50px;
+        }
+        @media (max-width: $tablet) {
+            left: 230px
+        }
+        @media (max-width:$phone) {
+            left: 200px;
+        }
+    }
+    &__advantage-text-z {
+        margin-top: 12%;
+        @media (max-width: $tablet) {
+            margin-top: 0;
+        }
+    }
+    &__advantage-icon-p {
+        background-image: url(../../assets/images/block-why/teplitsa-sibirskaya-premium.jpg);
+        top: -75px;
+        left: -140px;
+        @media (max-width: $desktop) {
+            left: -107px;
+            top: -71px;
+        }
+        @media (max-width: $iPadPro) {
+            left: -74px;
+            top: -50px;
+        }
+        @media (max-width: $tablet) {
+            left: 260px;
+        }
+        @media (max-width:$phone) {
+            left: 200px;
+        }
+    }
+    &__advantage-text-p {
+        margin-top: 12%;
+        left: 76%;
+        @media (max-width: $tablet) {
+            left: 0;
+            margin-top: 0;
+        }
+    }
+    &__advantage-icon-m {
+        background-image: url(../../assets/images/block-why/izdeliya-iz-metalla.jpg);
+        top: -75px;
+        left: -140px;
+        @media (max-width: $desktop) {
+            left: -107px;
+            top: -71px;
+        }
+        @media (max-width: $iPadPro) {
+            left: -74px;
+            top: -50px;
+        }
+        @media (max-width: $tablet) {
+            left: 290px;
+        }
+        @media (max-width:$phone) {
+            left: 200px;
+        }
+    }
+    &__advantage-text-m {
+        left: 65%;
+        margin-top: 25%;
+        @media (max-width: $tablet) {
+            margin-top: 0;
+            left: 0;
+        }
+    }
+    &__advantage-icon-s {
+        background-image: url(../../assets/images/block-why/sotovyj-polikarbonat-4mm.jpg);
+        top: -75px;
+        left: 220px;
+        @media (max-width: $desktop) {
+            left: 202px;
+            top: -71px;
+        }
+        @media (max-width: $iPadPro) {
+            top: -50px;
+        }
+        @media (max-width: $tablet) {
+            left: 320px;
+        }
+        @media (max-width:$phone) {
+            left: 200px;
+        }
+    }
+    &__advantage-text-s {
+        margin-top: 24%;
+        left: 9%;
+        @media (max-width: $tablet) {
+            left: 0;
+            margin-top: 0;
+        }
+    }
+    &__advantage-block {
+        display: inline;
+        width: 100%;
+        height: 100%;
+    }
+}
